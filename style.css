@@ -17,3 +17,12 @@ header h1{
     color: #E53170;
     padding: 25px;
 }
+
+main{
+    width: 70%;
+    margin: auto;
+}
+
+main p{
+    text-align: center;
+}
