@@ -28,7 +28,7 @@ main p{
     margin-bottom: 50px;
 }
 
-/* card style settings */
+/* card size and position settings */
 .card{
     width: calc((100% - 80px) / 3);
     height: 100px;
@@ -43,4 +43,27 @@ main p{
 .card:last-child{
     margin: 0;
 }
-/* end card style settings */
+/* end card size and position settings */
+
+/* card content settings */
+.card img{
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.info{
+    padding: 18px;
+}
+
+.info h2{
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+.info a{
+    text-decoration: none;
+    color: #74CCED;
+    display: block;
+}
+/* end card content settings */
