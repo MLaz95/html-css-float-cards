@@ -28,7 +28,7 @@ main p{
     margin-bottom: 50px;
 }
 
-/* card size and position settings */
+/* card style and position */
 .card{
     width: calc((100% - 80px) / 3);
     height: 100px;
@@ -38,12 +38,13 @@ main p{
 
     background-color: #0F0E17;
     color: white;
+    box-shadow: 0 0 8px 3px rgba(0, 0, 0, 0.3)
 }
 
 .card:last-child{
     margin: 0;
 }
-/* end card size and position settings */
+/* end card style and position */
 
 /* card content settings */
 .card img{
